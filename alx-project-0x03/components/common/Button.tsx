@@ -5,7 +5,6 @@ interface ButtonProps {
   action?: () => void
 }
 
-
 const Button = ({ buttonLabel, buttonSize, buttonBackgroundColor, action }: ButtonProps) => {
 
   const backgroundColorClass = buttonBackgroundColor ? {

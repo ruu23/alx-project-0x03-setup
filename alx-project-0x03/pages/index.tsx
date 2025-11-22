@@ -8,8 +8,7 @@ interface PageRouteProps {
 export default function Home() {
   const router = useRouter()
 
-  // Imeperative routing with useRouter
-  const routeToNextPage  = ({ pageRoute }: PageRouteProps) => {
+const routeToNextPage  = ({ pageRoute }: PageRouteProps) => {
     router.push(pageRoute, undefined, { shallow: false})
   }
 
